@@ -50,4 +50,4 @@ int main()
     std::cout << wallet::ec_public(publicKey.point()).to_payment_address().encoded() << "\n"
               << std::endl;
 }
-// g++ -std=c++11 -o hd main.cpp $(pkg-config --cflags libbitcoin-system --libs libbitcoin-system) -lgmp
+// g++ -std=c++11 -o hd.app main.cpp $(pkg-config --cflags libbitcoin-system --libs libbitcoin-system) -lgmp
